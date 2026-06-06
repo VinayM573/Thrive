@@ -2,9 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { ArrowRight, BadgeCheck, Building2, Cog, LineChart, MapPin, Users } from "lucide-react";
-import { Nav } from "@/components/site/Nav";
-import { Footer } from "@/components/site/Footer";
-import { Marquee } from "@/components/site/Marquee";
+import { Nav } from "@/components/sites/Nav";
+import { Footer } from "@/components/sites/Footer";
+import { Marquee } from "@/components/sites/Marquee";
 import franchise from "@/assets/franchise.jpg";
 
 export const Route = createFileRoute("/partner")({
