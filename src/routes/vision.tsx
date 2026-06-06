@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Quote } from "lucide-react";
-import { Nav } from "@/components/site/Nav";
-import { Footer } from "@/components/site/Footer";
-import { Marquee } from "@/components/site/Marquee";
+import { Nav } from "@/components/sites/Nav";
+import { Footer } from "@/components/sites/Footer";
+import { Marquee } from "@/components/sites/Marquee";
 import founder1 from "@/assets/founder1.jpg";
 import founder2 from "@/assets/founder2.jpg";
 import vision from "@/assets/vision.jpg";
